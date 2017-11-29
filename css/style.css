@@ -1,0 +1,8 @@
+#graphicArea{
+    min-height: 670px;
+    background:url('../images/organic-1280537_1280.jpg') no-repeat;
+    background-size: 100% auto;
+}
+header, header #name, header p{
+    padding-top: 0px;
+}

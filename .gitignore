@@ -52,10 +52,10 @@ fabric.properties
 
 .gitignore
 .idea/
-404.html
-css/
+
+
 images/
-index.html
+
 .idea/Tyler's Programming website.iml
 .idea/inspectionProfiles/
 .idea/misc.xml

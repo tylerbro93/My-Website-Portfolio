@@ -1,8 +1,54 @@
+body {
+    margin:0;
+    padding:0;
+    background-color: #292629;
+}
+.container {
+    width: 98%;
+    margin: auto;
+    overflow: hidden;
+}
 #graphicArea{
     min-height: 670px;
-    background:url('../images/organic-1280537_1280.jpg') no-repeat;
+    background:#0e0d0e url('../images/organic-1280537_1280.jpg') no-repeat;
     background-size: 100% auto;
+    color: #0e0d0e;
+    margin: 0 0 0 0;
 }
-header, header #name, header p{
-    padding-top: 0px;
+header, header #name h1{
+    margin: 0 0 0 0;
+}
+#name{
+    float: left;
+    text-align: center;
+}
+
+header {
+    border-bottom: #5b1006 9px solid;
+}
+header li {
+    display: inline;
+    padding: 0 15px 0 10px;
+    float: left;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+header a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+}
+nav {
+    float: right;
+    display: inline;
+    padding-top: 10px;
+}
+
+.TitleHeader{
+    color: aliceblue;
+    background-color: darkred;
 }

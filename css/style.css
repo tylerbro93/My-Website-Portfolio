@@ -57,6 +57,19 @@ nav {
     color: aliceblue;
     text-align: center;
 }
+.box {
+    float: left;
+    margin-left: 30%;
+    margin-top: 30%;
+}
+#imageLinks .box p{
+    color: #fffef1;
+    margin: 0;
+}
+#imageLinks img{
+    width: 100px;
+    height: auto;
+}
 footer p{
     text-align: center;
     color: bisque;

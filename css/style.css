@@ -59,15 +59,16 @@ nav {
 }
 .box {
     float: left;
-    margin-left: 30%;
-    margin-top: 30%;
+    margin-left: 22%;
+    margin-top: 32%;
 }
 #imageLinks .box p{
     color: #fffef1;
     margin: 0;
+    font-size: 15px;
 }
 #imageLinks img{
-    width: 100px;
+    width: 80px;
     height: auto;
 }
 footer p{

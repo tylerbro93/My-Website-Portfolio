@@ -4,7 +4,7 @@ body {
     background-color: #292629;
 }
 .container {
-    width: 98%;
+    width: 99%;
     margin: auto;
     overflow: hidden;
 }
@@ -51,4 +51,18 @@ nav {
 .TitleHeader{
     color: aliceblue;
     background-color: darkred;
+}
+.container #graphicArea P{
+    font-size: 24px;
+    color: aliceblue;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    color: bisque;
+    margin-top: 8px;
+}
+
+footer{
+   padding: 0;
 }

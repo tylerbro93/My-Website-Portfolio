@@ -11,12 +11,13 @@ body {
 #graphicArea{
     min-height: 670px;
     background:#292629 url('../images/organic-1280537_1280.jpg') no-repeat;
-    background-size: 100% auto;
+    background-size: 100% 100%;
     color: #0e0d0e;
     margin: 0 0 0 0;
+    padding: 0;
 }
-header, header #name h1{
-    margin: 0 0 0 0;
+header #name h1{
+    margin: 0 0 5px 10px;
 }
 #name{
     float: left;
@@ -60,7 +61,7 @@ nav {
 .box {
     float: left;
     margin-left: 22%;
-    margin-top: 32%;
+    margin-top: 490px;
 }
 #imageLinks .box p{
     color: #fffef1;
@@ -74,9 +75,10 @@ nav {
 footer p{
     text-align: center;
     color: bisque;
-    margin-top: 8px;
+    margin: 10px 0 10px 0;
 }
 
 footer{
-   padding: 0;
+    padding: 0;
+    bottom: 0;
 }

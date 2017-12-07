@@ -8,6 +8,7 @@ body {
     margin: auto;
     overflow: hidden;
 }
+/*
 #graphicArea{
     min-height: 670px;
     background:#292629 url('../images/organic-1280537_1280.jpg') no-repeat;
@@ -16,6 +17,7 @@ body {
     margin: 0 0 0 0;
     padding: 0;
 }
+*/
 header #name h1{
     margin: 0 0 5px 10px;
 }
@@ -25,7 +27,7 @@ header #name h1{
 }
 
 header {
-    border-bottom: #5b1006 9px solid;
+    border-bottom: #1d1a1d 9px solid;
 }
 header li {
     display: inline;
@@ -51,9 +53,9 @@ nav {
 
 .TitleHeader{
     color: aliceblue;
-    background-color: darkred;
+    background-color: #292629;
 }
-.container #graphicArea P{
+.homepage-hero-module P{
     font-size: 24px;
     color: aliceblue;
     text-align: center;
@@ -61,7 +63,8 @@ nav {
 .box {
     float: left;
     margin-left: 22%;
-    margin-top: 490px;
+    margin-top: 15%;
+    z-index: 100;
 }
 #imageLinks .box p{
     color: #fffef1;
@@ -72,13 +75,76 @@ nav {
     width: 80px;
     height: auto;
 }
+#firstParagraph{
+    width: 30%;
+    text-align: left;
+    float: left;
+}
+#personalPic{
+    width: 8%;
+    height: auto;
+    float: left;
+    margin-left: 33%;
+    margin-top: 32px;
+    margin-right: 5px;
+}
+#personal{
+    width: 100%;
+}
 footer p{
     text-align: center;
     color: bisque;
-    margin: 10px 0 10px 0;
+    margin: 0;
 }
 
 footer{
     padding: 0;
     bottom: 0;
+}
+
+/* moving video code */
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    height: 100%;
+
+
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    z-index: 0;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    /* background: rgba(0, 0, 0, 0.4); */
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 50;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
 }

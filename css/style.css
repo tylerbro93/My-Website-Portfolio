@@ -102,7 +102,7 @@ footer{
     bottom: 0;
 }
 
-/* moving video code */
+/* moving video code by coverr/ modified by Tyler Brown */
 
 .homepage-hero-module {
     border-right: none;
@@ -121,7 +121,6 @@ footer{
 }
 .video-container {
     position: relative;
-
     left: 0%;
     height: 100%;
     width: 100%;

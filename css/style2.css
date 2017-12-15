@@ -54,9 +54,9 @@ nav {
     height: 100%;
     background-color: #494449;
     float: left;
-    z-index: 100;
     border-radius: 15px;
     margin-top: 30px;
+    margin-left: 8px;
 }
 
 .sidebarProject a, .sidebarProject li, .sidebarProject ul{
@@ -71,14 +71,16 @@ nav {
 .article{
     width: 80%;
     height: 100%;
-    float: right;
+    float: left;
     margin-top: 20px;
+    margin-left: 20px;
 }
 .article p{
     padding-left: 20px;
-    color: #fffef1;
+    color: #ffffff;
     padding-right: 20px;
     float: left;
+    font-size: 18px;
 }
 
 
@@ -104,7 +106,7 @@ nav {
     width: 100%;
     overflow: visible;
     background: #000;
-    z-index: -100;
+    z-index: 1;
 }
 .video-container .poster img {
     width: 100%;
@@ -139,6 +141,5 @@ footer p{
 }
 
 footer{
-    padding: 0;
-    bottom: 0;
+    margin: 50% 0 0 0;
 }

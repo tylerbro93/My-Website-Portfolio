@@ -56,7 +56,7 @@ nav {
     color: aliceblue;
     background-color: #292629;
 }
-.homepage-hero-module P{
+.homepage-hero-module .container2 P{
     font-size: 24px;
     color: aliceblue;
     text-align: center;
@@ -71,6 +71,7 @@ nav {
     color: #fffef1;
     margin: 0;
     font-size: 15px;
+    text-align: center;
 }
 #imageLinks img{
     width: 80px;

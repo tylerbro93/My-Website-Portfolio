@@ -102,8 +102,9 @@ footer p{
 }
 
 footer{
-    padding: 0;
+    clear: both;
     bottom: 0;
+    margin: 50% 0 0 0;
 }
 
 /* moving video code by coverr/ modified by Tyler Brown */
@@ -128,7 +129,7 @@ footer{
     width: 100%;
     overflow: visible;
     background: #000;
-    z-index: -100;
+    z-index: 100;
 }
 .video-container .poster img {
     width: 100%;

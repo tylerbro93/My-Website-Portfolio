@@ -156,6 +156,7 @@ footer{
 }
 
 /* reponsive design */
+
 @media(max-width: 768px){
     #personalPic {
         width: 20%;
@@ -173,6 +174,11 @@ footer{
     #imageLinks img{
         width: 50px;
         height: auto;
+    }
+    #imageLinks{
+        width: 95%;
+        margin-left: 5%;
+
     }
     .box {
         margin-left: 16%;
@@ -239,15 +245,12 @@ footer{
         height: auto;
     }
     #imageLinks{
-        width: 100%;
-        margin-left: 5%;
-        margin-right: 5%;
+        width: 95%;
+
     }
-    #imageLinks a{
-        font-size: 4px;
-    }
+
     .box {
-        margin-left: 2px;
+        margin-left: 12%;
         margin-top: 15%;
     }
 
@@ -270,9 +273,7 @@ footer{
     .homepage-hero-module P {
         font-size: 15px;
     }
-    .box {
-        margin-left: 17%;
-    }
+
 
     .container2 {
         width: 80%;

@@ -61,7 +61,7 @@ nav {
 
 .sidebarProject a, .sidebarProject li, .sidebarProject ul{
     text-decoration: none;
-    display: inline-block;
+    display: block;
     color: #fffef1;
     padding: 0;
     margin-top: 5px;
@@ -78,6 +78,7 @@ nav {
     padding-left: 20px;
     color: #fffef1;
     padding-right: 20px;
+    float: left;
 }
 
 
@@ -115,7 +116,7 @@ nav {
     z-index: 100;
     position: absolute;
     /* background: rgba(0, 0, 0, 0.4); */
-    width: 100%;
+
     overflow: visible;
 }
 .video-container video {

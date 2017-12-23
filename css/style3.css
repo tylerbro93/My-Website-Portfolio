@@ -102,7 +102,7 @@ nav {
 
 }
 .article img{
-    margin-top: 5%;
+    margin-top: 10px;
     clear: both;
 }
 .article p img{
@@ -120,6 +120,7 @@ nav {
     list-style-type: none;
     font-size: 18px;
     display: inline-block;
+    color: white;
 }
 .article li a{
     margin-left: -2%;
@@ -195,5 +196,5 @@ footer p{
 }
 
 footer{
-    margin: 50% 0 0 0;
+    margin: 70% 0 0 0;
 }
